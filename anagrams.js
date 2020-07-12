@@ -1,5 +1,3 @@
-
-
 let anagrams = [];
 
 let getAnagrams = (word, anagram) => {

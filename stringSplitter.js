@@ -1,8 +1,9 @@
-
 /*
-Objective: Write a recursive function that splits a string based on a seperator
+
+
+Objective: Write a recursive function that splits a string based on a separator
 1. Don't us JS array's split function to solve this problem 
-*/
+
 
 //Input: 02/20/2020
 //Output: ["02", "20", "2020"]
@@ -25,5 +26,18 @@ function stringSplitter(string, array) {
         return stringSplitter(remainPartOfString, array);
     }
 }
+console.log(
+    stringSplitter('02/20/2020'))
 
-stringSplitter('Lets get out of this recursion', []);
+*/
+
+//splits a string based on a separator 
+
+const stringSplitter = (str) => {
+    if (str === 0) {
+        return '';
+    }
+    else {
+        
+    }
+}
